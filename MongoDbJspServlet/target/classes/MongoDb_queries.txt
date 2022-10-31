@@ -1,0 +1,12 @@
+##### COMMANDS TO CREATE A SAMPLE DATABASE & COLLECTION #####
+> use emp_records
+
+> db.emp.insertMany( [
+	{ _id: 1, "id" : "admin", "pwd" : "admin@123" },
+	{ _id: 2, "id" : "jcg", "pwd" : "jcg$23!5" },
+	{ _id: 3, "id" : "april", "pwd" : "faith!31_b" },
+	{ _id: 4, "id" : "daniel", "pwd" : "tom#1234" },
+	{ _id: 5, "id" : "john", "pwd" : "sun!23#day" }
+] )
+
+> db.emp.find()
